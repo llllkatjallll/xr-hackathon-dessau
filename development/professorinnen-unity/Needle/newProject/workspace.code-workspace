@@ -11,10 +11,15 @@
       "name": "@needle-tools/samples-scripts",
       "path": "node_modules/@needle-tools/samples-scripts",
       "@needle:managed": true
+    },
+    {
+      "name": "needle.samples.scrollytelling",
+      "path": "node_modules/needle.samples.scrollytelling",
+      "@needle:managed": true
     }
   ],
   "settings": {
-    "window.title": "svelte",
+    "window.title": "newProject",
     "compile-hero.disable-compile-files-on-did-save-code": true,
     "files.exclude": {
       "package-lock.json": true,
