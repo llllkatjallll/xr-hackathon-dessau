@@ -119,6 +119,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &32406052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
+      propertyPath: m_Name
+      value: MonsteraGLB
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 5c5000370f66b3746aa91e550630e988, type: 3}
 --- !u!1 &44153234
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +399,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.02391672, y: -0.9638218, z: 0.09264558, w: 0.24878179}
   m_LocalPosition: {x: 4.21, y: 2.95, z: 7.63}
-  m_LocalScale: {x: 1.0000334, y: 0.99999833, z: 1.0000345}
+  m_LocalScale: {x: 1.0000379, y: 0.99999833, z: 1.0000405}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -559,7 +628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Needle.Typescript.GeneratedComponents.SplatRenderer, Needle.Engine-Samples.Runtime
   path:
     Mode: 0
-    File: {fileID: 102900000, guid: 10dc42f251ed92d429163c35c4b7057e, type: 3}
+    File: {fileID: 102900000, guid: 15cdebfd3f8c2264aa59c5a3f54af37d, type: 3}
     String: https://engine.needle.tools/demos/gaussian-splatting/files/garden.compressed-1.ply
   dynamicObject: 0
   progressiveLoading: 0
@@ -596,6 +665,75 @@ MonoBehaviour:
   translationSnap: 1
   rotationSnapAngle: 15
   scaleSnap: 0.25
+--- !u!1 &1018745668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1018745671}
+  - component: {fileID: 1018745670}
+  - component: {fileID: 1018745669}
+  m_Layer: 0
+  m_Name: SplatRenderer (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1018745669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018745668}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0a99296943d934cbb0328a9aff20fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Needle.Engine.Components.TransformGizmo, Needle.Engine
+  isGizmo: 0
+  translationSnap: 1
+  rotationSnapAngle: 15
+  scaleSnap: 0.25
+--- !u!114 &1018745670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018745668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe03eebb59411f5033c2cf3cd4053295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Needle.Typescript.GeneratedComponents.SplatRenderer, Needle.Engine-Samples.Runtime
+  path:
+    Mode: 0
+    File: {fileID: 102900000, guid: a294138c6d165304e982b84178878e48, type: 3}
+    String: https://engine.needle.tools/demos/gaussian-splatting/files/garden.compressed-1.ply
+  dynamicObject: 0
+  progressiveLoading: 0
+  showLoadingUI: 0
+  autoCenter: 0
+--- !u!4 &1018745671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018745668}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1080015695
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +998,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.98656034, z: -0, w: 0.1633978}
   m_LocalPosition: {x: 1.8, y: 0, z: 3.59}
-  m_LocalScale: {x: 1.0000261, y: 1, z: 1.0000261}
+  m_LocalScale: {x: 1.0000317, y: 1, z: 1.0000317}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1229,3 +1367,5 @@ SceneRoots:
   - {fileID: 886143610}
   - {fileID: 1234562383}
   - {fileID: 5312381281051214366}
+  - {fileID: 32406052}
+  - {fileID: 1018745671}
