@@ -1,5 +1,5 @@
 <script lang="ts">
-
+import logo from "./images/logo.png";
     /**
      * The src can be a remote url to a GLB (or local file)
     */
@@ -16,7 +16,7 @@
 </script>
 
 <!-- find all attributes in the documentation at https://engine.needle.tools/docs/reference/needle-engine-attributes.html-->
-<needle-engine {src} skybox-image="{skyboxImage}" environment-image="{environmentImage}">
+<needle-engine loading-logo-src={logo} loading-background-color="#FFFFFF" loading-text-color="#000" primary-color="#fffff" secondary-color="#ffffff">
     <slot />
 </needle-engine>
 

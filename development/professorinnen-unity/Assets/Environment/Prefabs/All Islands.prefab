@@ -100,16 +100,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_Volume
-      value: 0.3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: d4192d2036bd4a044aa14b26fcb89910, type: 3}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: MaxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: MinDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: d4192d2036bd4a044aa14b26fcb89910, type: 3}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8281345076180691106, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_LocalScale.x
       value: 17.333319
@@ -206,16 +218,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_Volume
-      value: 0.3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: 414c885c49d11224d9863362e5ccc2e7, type: 3}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: MaxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: MinDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 414c885c49d11224d9863362e5ccc2e7, type: 3}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8281345076180691106, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_LocalScale.x
       value: 17.333319
@@ -312,16 +336,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_Volume
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: a43bfa236856f214f88a3a3fc6c808c1, type: 3}
     - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: MaxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: MinDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: a43bfa236856f214f88a3a3fc6c808c1, type: 3}
+    - target: {fileID: 6036336544417988843, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8281345076180691106, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_LocalScale.x
       value: 17.333319
