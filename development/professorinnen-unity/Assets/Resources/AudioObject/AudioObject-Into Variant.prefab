@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6863143617118423322, guid: 49ba9c79d7c04884280449cc361a1cb2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8476830168987590664, guid: 49ba9c79d7c04884280449cc361a1cb2, type: 3}
       propertyPath: m_Name
       value: AudioObject-Into Variant
