@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myStringField: Hello World
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 583018589072822432}
   animator: {fileID: 3947789585003662695}
 --- !u!1001 &6560194460973910492
 PrefabInstance:
