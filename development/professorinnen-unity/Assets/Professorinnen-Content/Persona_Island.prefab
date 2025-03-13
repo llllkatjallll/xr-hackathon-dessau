@@ -79,6 +79,37 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Prof. \nBinh Minh Herbst"
+--- !u!1 &380603665964545526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6543106428452726160}
+  m_Layer: 0
+  m_Name: Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6543106428452726160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380603665964545526}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3589168366133983701}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &792212590143567818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,7 +1217,7 @@ MonoBehaviour:
     Mode: 0
     File: {fileID: 102900000, guid: 77109fd8d6451384f8a08d834e17a7e5, type: 3}
     String: 
-  dynamicObject: 0
+  dynamicObject: 1
   progressiveLoading: 1
   showLoadingUI: 0
   autoCenter: 0
@@ -1268,6 +1299,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 573994171257560923}
+  - {fileID: 6543106428452726160}
   m_Father: {fileID: 2772460893561651198}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8846473539133907050
