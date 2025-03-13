@@ -53,6 +53,20 @@ export class Orb extends Behaviour {
         }
     }
 
+    stopAll() {
+        const audioOrbs = GameObject.findObjectsOfType(Orb);    
+        for (const orb of audioOrbs) {
+            if (orb.audioSource) {
+                orb.audioSource.stop();
+            }
+
+            if (orb.animator) {
+                orb.animator.setTrigger("Stop");
+            }
+        }
+
+    }
+
     private onAudioEnded() {
         // Trigger animator
         console.log("Audio ended");

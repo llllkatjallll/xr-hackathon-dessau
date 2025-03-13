@@ -12,6 +12,7 @@ namespace Needle.Typescript.GeneratedComponents
 		public UnityEngine.Animator @animator;
 		public void awake(){}
 		public void checkAndPlay(){}
+		public void stopAll(){}
 	}
 }
 
