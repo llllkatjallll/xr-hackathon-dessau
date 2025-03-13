@@ -645,6 +645,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5172008922218716223, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 1e075cc26fcfbd34d891e315af22d98a, type: 3}
+    - target: {fileID: 5172008922218716223, guid: 72e8219e6857f3443b150940d7319913, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1e075cc26fcfbd34d891e315af22d98a, type: 3}
     - target: {fileID: 5746905968421532101, guid: 72e8219e6857f3443b150940d7319913, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.078
