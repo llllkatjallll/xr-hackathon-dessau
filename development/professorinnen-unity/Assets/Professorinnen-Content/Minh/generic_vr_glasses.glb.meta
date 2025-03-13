@@ -1,0 +1,72 @@
+fileFormatVersion: 2
+guid: af8a8873ce8d0ae40bfba0f6d1d07039
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Branco
+    second: {fileID: 2100000, guid: e04987240378f2443a6538f2e3fea50d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lente
+    second: {fileID: 2100000, guid: 7241c59e80d130640a5e38d6b4a82ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Preto
+    second: {fileID: 2100000, guid: e88ee3a997a0ff94893b5d7c7bc27211, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _deduplicateResources: 0
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importCamera: 2
+  _importAnimations: 2
+  _mecanimHumanoidFlip: 0
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _texturesReadWriteEnabled: 1
+  _generateMipMaps: 1
+  _useSceneNameIdentifier: 1
+  _textureCompression: -50
+  _gltfAsset: '<b>Generator: </b>Khronos glTF Blender I/O v1.8.19
+
+    <b>Version:
+    </b>2.0
+
+'
+  optimizeGameObjects: 0
+  materials:
+  - {fileID: -974262549384822930, guid: af8a8873ce8d0ae40bfba0f6d1d07039, type: 3}
+  - {fileID: -8081228178661188526, guid: af8a8873ce8d0ae40bfba0f6d1d07039, type: 3}
+  - {fileID: 3735223030975670907, guid: af8a8873ce8d0ae40bfba0f6d1d07039, type: 3}
+  textures: []
+  hasSceneData: 1
+  hasAnimationData: 0
+  hasMaterialData: 1
+  hasTextureData: 0
+  animations: []
+  _extensions: []
+  _textures: []
+  _mainAssetIdentifier: scenes/Scene
+  _importPlugins: []
