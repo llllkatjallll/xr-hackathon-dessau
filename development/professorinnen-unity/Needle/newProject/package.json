@@ -9,20 +9,23 @@
   },
   "dependencies": {
 	  "@needle-tools/engine": "^4.3.0-alpha.3",
-	  "three": "npm:@needle-tools/three@^0.169.5",
-	  "needle.samples.scrollytelling": "file:./../../Library/PackageCache/com.needle.engine-samples@65ad9ebf67b6/Runtime/Scrollytelling/Needle.Samples.Scrollytelling~"
+	  "femprof.npm": "file:./../../Assets/Needle/femProf.npm~",
+	  "needle.gaussiansplats": "file:./../../Library/PackageCache/com.needle.engine-samples@65ad9ebf67b6/Runtime/GaussianSplats/Needle.GaussianSplats~",
+	  "needle.samples.scrollytelling": "file:./../../Library/PackageCache/com.needle.engine-samples@65ad9ebf67b6/Runtime/Scrollytelling/Needle.Samples.Scrollytelling~",
+	  "three": "npm:@needle-tools/three@^0.169.5"
 	},
   "devDependencies": {
-	  "@needle-tools/helper": "1.11.3",
-	  "@types/three": "0.169.0",
-	  "@vitejs/plugin-basic-ssl": "^1.0.1",
-	  "typescript": "^5.0.2",
-	  "vite": "4.3.9",
-	  "vite-plugin-compression": "^0.5.1",
-	  "@sveltejs/vite-plugin-svelte": "^2.0.4",
-	  "@tsconfig/svelte": "^5.0.0",
-	  "svelte": "^4.1.1",
-	  "svelte-check": "^3.1.4",
-	  "svelte-preprocess": "^5.0.3"
-	}
+    "@needle-tools/helper": "1.11.3",
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "@tsconfig/svelte": "^5.0.0",
+    "@types/three": "0.169.0",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "svelte": "^4.1.1",
+    "svelte-check": "^3.1.4",
+    "svelte-preprocess": "^5.0.3",
+    "typescript": "^5.0.2",
+    "vite": "4.3.9",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-pwa": "^1.0.0"
+  }
 }
