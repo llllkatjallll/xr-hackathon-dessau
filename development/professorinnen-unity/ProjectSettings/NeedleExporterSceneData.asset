@@ -18,15 +18,18 @@ MonoBehaviour:
     - ProjectPath: Needle/newProject
     BuilderScene: 
   - Path: Assets/Samples/Needle Engine/GaussianSplats.unity
-    Projects: []
-    BuilderScene: 
-  - Path: Assets/Scenes/Scrollytelling_Test.unity
     Projects:
-    - ProjectPath: Needle/newProject
+    - ProjectPath: Library/Needle/Sample
     BuilderScene: 
   - Path: Assets/Scenes/Scrollytelling_Exhibition.unity
     Projects:
     - ProjectPath: Needle/newProject
     BuilderScene: 
+  - Path: Assets/Scenes/Leipzig-Postcard.unity
+    Projects:
+    - ProjectPath: Needle/leipzig-postcard
+    BuilderScene: 
   Projects:
   - ProjectPath: Needle/newProject
+  - ProjectPath: Library/Needle/Sample
+  - ProjectPath: Needle/leipzig-postcard

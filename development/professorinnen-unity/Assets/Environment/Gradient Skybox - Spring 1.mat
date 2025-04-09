@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Gradient Skybox - Spring
+  m_Name: Gradient Skybox - Spring 1
   m_Shader: {fileID: 4800000, guid: e2ad0dd556efe1642b50673b3b78a5ef, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

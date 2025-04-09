@@ -1,0 +1,42 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "node_modules/@needle-tools/engine",
+      "name": "🌵 Needle Engine"
+    },
+    {
+      "name": "@needle-tools/samples-scripts",
+      "path": "node_modules/@needle-tools/samples-scripts",
+      "@needle:managed": true
+    },
+    {
+      "name": "needle.samples.scrollytelling",
+      "path": "node_modules/needle.samples.scrollytelling",
+      "@needle:managed": true
+    },
+    {
+      "name": "needle.gaussiansplats",
+      "path": "node_modules/needle.gaussiansplats",
+      "@needle:managed": true
+    },
+    {
+      "name": "femprof.npm",
+      "path": "node_modules/femprof.npm",
+      "@needle:managed": true
+    }
+  ],
+  "settings": {
+    "window.title": "leipzig-postcard",
+    "compile-hero.disable-compile-files-on-did-save-code": true,
+    "files.exclude": {
+      "package-lock.json": true,
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true,
+      "**/*.meta": true
+    }
+  }
+}
