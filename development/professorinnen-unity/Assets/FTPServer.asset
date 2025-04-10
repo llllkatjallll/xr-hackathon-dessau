@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aea3f416634f409db6f04fa768a0c03d, type: 3}
   m_Name: FTPServer
   m_EditorClassIdentifier: 
-  Servername: boresomecompany.com
+  Servername: 
   AllowTopLevelDeployment: 1
   SFTP: 0
   Port: -1
-  Username: f016980a
-  RemoteUrl: https://prefrontalcortex.de/labs
+  Username: 
+  RemoteUrl: 
